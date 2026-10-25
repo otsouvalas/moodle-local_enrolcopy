@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 (2026102502) — 2026-10-25
+- The page is back under *Site administration > Plugins > Local plugins*. *Courses* is used only where that
+  category does not exist for the user (Moodle 4.5, managers who are not site admins).
+
 ## 1.3.1 (2026102501) — 2026-10-25
 - The page moved to *Site administration > Courses*. On Moodle 4.5 the *Local plugins* category exists only
   for site admins, so managers could not reach the page there.

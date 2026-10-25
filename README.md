@@ -19,8 +19,9 @@ Moodle 4.5 to 5.2.
 
 ## Usage
 
-Go to *Site administration > Courses > Copy enrolment methods*
-(`/local/enrolcopy/index.php`).
+Go to *Site administration > Plugins > Local plugins > Copy enrolment methods*
+(`/local/enrolcopy/index.php`). On Moodle 4.5, managers who are not site admins find it under
+*Site administration > Courses*, because the *Local plugins* category is shown to site admins only there.
 
 1. **Courses.** Pick the source course (copy from) and the target course (copy to).
 2. **Methods.** All enrolment methods of the source course are listed, ticked by default. Methods that

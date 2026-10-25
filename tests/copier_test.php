@@ -171,6 +171,15 @@ final class copier_test extends \advanced_testcase {
         $this->assertSame([], $form->selected_instance_ids((object)[]));
     }
 
+    public function test_page_is_under_local_plugins_for_admins(): void {
+        $this->resetAfterTest();
+        $this->setAdminUser();
+
+        $category = admin_get_root(true, false)->locate('localplugins');
+
+        $this->assertNotNull($category->locate('local_enrolcopy_index'));
+    }
+
     public function test_manager_can_open_the_page(): void {
         $this->resetAfterTest();
         $manager = $this->getDataGenerator()->create_user();
