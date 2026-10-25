@@ -1,0 +1,3 @@
+# Local tooling state must never reach a public repository.
+.omc/
+*.zip
