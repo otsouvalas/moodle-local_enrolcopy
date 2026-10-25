@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Admin page registration (Site administration > Plugins > Local plugins).
+ * Admin page registration (Site administration > Courses).
  *
  * @package    local_enrolcopy
  * @copyright  2026 Odysseas Tsouvalas (SpinWorks)
@@ -24,9 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-// No $hassiteconfig gate: admin_externalpage checks local/enrolcopy:use, so managers who are not
-// site admins see the page too.
-$ADMIN->add('localplugins', new admin_externalpage(
+// Under Courses, not Local plugins: the localplugins category exists only for site admins before Moodle 5.0.
+// No $hassiteconfig gate: admin_externalpage checks local/enrolcopy:use, so managers see the page too.
+$ADMIN->add('courses', new admin_externalpage(
     'local_enrolcopy_index',
     get_string('pluginname', 'local_enrolcopy'),
     new moodle_url('/local/enrolcopy/index.php'),

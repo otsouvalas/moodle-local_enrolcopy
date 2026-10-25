@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1 (2026102501) — 2026-10-25
+- The page moved to *Site administration > Courses*. On Moodle 4.5 the *Local plugins* category exists only
+  for site admins, so managers could not reach the page there.
+- Language strings in alphabetical order (Moodle coding style).
+
 ## 1.3.0 (2026102500) — 2026-10-25
 Preparation for the Moodle plugins directory.
 - Courses are chosen with Moodle's course search field instead of a list of every course on the site.

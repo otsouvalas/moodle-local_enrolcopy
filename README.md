@@ -19,7 +19,7 @@ Moodle 4.5 to 5.2.
 
 ## Usage
 
-Go to *Site administration > Plugins > Local plugins > Copy enrolment methods*
+Go to *Site administration > Courses > Copy enrolment methods*
 (`/local/enrolcopy/index.php`).
 
 1. **Courses.** Pick the source course (copy from) and the target course (copy to).
