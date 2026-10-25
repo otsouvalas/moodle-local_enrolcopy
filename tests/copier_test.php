@@ -21,6 +21,7 @@ defined('MOODLE_INTERNAL') || die();
 global $CFG;
 require_once($CFG->libdir . '/adminlib.php');
 
+#[\PHPUnit\Framework\Attributes\CoversClass(copier::class)]
 /**
  * Tests for the enrolment method copier.
  *
@@ -30,7 +31,6 @@ require_once($CFG->libdir . '/adminlib.php');
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @covers     \local_enrolcopy\copier
  */
-#[\PHPUnit\Framework\Attributes\CoversClass(copier::class)]
 final class copier_test extends \advanced_testcase {
     /**
      * Adds a self enrolment instance with distinctive settings to a course.
