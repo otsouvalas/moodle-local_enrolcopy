@@ -28,6 +28,7 @@ require_once($CFG->libdir . '/adminlib.php');
  * @category   test
  * @copyright  2026 Odysseas Tsouvalas (SpinWorks)
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @covers     \local_enrolcopy\copier
  */
 #[\PHPUnit\Framework\Attributes\CoversClass(copier::class)]
 final class copier_test extends \advanced_testcase {
