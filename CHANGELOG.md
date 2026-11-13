@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.3 (2026111300) — 2026-11-13
+- Added the GNU GPL v3 `LICENSE` file to the plugin root (plugins directory review).
+
 ## 1.3.2 (2026102502) — 2026-10-25
 - The page is back under *Site administration > Plugins > Local plugins*. *Courses* is used only where that
   category does not exist for the user (Moodle 4.5, managers who are not site admins).
